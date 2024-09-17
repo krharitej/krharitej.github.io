@@ -1,4 +1,3 @@
-import React from 'react'
 import './Profile.css'
 import ProfilePic from "/Profile_Blur1.png"
 
