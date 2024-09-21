@@ -6,36 +6,31 @@ body{
     justify-content: center;
 }
 .obox1{
-    margin: auto;
+    justify-content: center;
+    margin: 0;
     height: auto;
+    max-width: 500px;
     padding: 2.5rem;
     text-align: center;
     font-size: 100%;
+    flex-shrink: 0;
+    flex-grow: 0;
 }
 
-.obox{
+.biobox{
     display: flex;
-    justify-content: space-between;
-    margin: auto;
-    height: auto;
-    width: 90%;
-    border-radius: 5%;
-    padding: .2rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    box-shadow: 0px 1px 0px 0px gray;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-}
-
-a{
-    text-decoration: none;
-    color: gray;
+    padding: 0 2.5rem;
+    font-size: 100%;
 }
 
 .pbox img{
     height: auto;
     width: 40%;
 }
+
 
 @media(max-width: 2560px){
     .obox1{
@@ -45,9 +40,19 @@ a{
         text-align: center;
         font-size: 100%;
     }
+
     .pbox img{
         height: auto;
         width: 40%;
+    }
+
+    .biobox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 2.5rem;
+        font-size: 100%;
     }
 }
 @media(max-width: 1440px){
@@ -58,9 +63,19 @@ a{
         text-align: center;
         font-size: 70%;
     }
+
     .pbox img{
         height: auto;
         width: 28%;
+    }
+
+    .biobox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 2.5rem;
+        font-size: 85%;
     }
 }
 @media(max-width: 768px){
@@ -69,11 +84,21 @@ a{
         height: auto;
         padding: 2.5rem;
         text-align: center;
-        font-size: 70%;
+        font-size: 55%;
     }
+
     .pbox img{
         height: auto;
-        width: 28%;
+        width: 22%;
+    }
+
+    .biobox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 2.5rem;
+        font-size: 65%;
     }
 }
 @media(max-width: 320px){

@@ -1,6 +1,6 @@
 import './App.css'
-import './Profile'
-import Profile from './Profile'
+import './pages/Profile'
+import Profile from './pages/Profile'
 
 function App() {
 
